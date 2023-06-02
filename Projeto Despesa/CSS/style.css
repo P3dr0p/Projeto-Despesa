@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+body{
+    position: absolute;
+    background-color: hsl(27, 66%, 92%);
+    font-family: 'DM Sans';
+}
+
+.Balance{
+    width: 450px;
+    height: 105px;
+    border-radius: 10px;
+
+    background-color: hsl(10, 79%, 65%);
+    color: white;
+}
+
+.Balance-Text{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    
+    font-size: 18px;
+}
+
+.Balance-Number{
+    position: absolute;
+    top: 35px;
+    left: 30px;
+    
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Brand{
+    position: absolute;
+    top: 40px;
+    left: 350px;
+}
+
+.Week{
+    background-color: #FFFF;
+    border-radius: 10px;
+    height: 330px;
+}
+
+.Week-Text{
+    position: relative;
+    top: 10px;
+    left: 10px;
+
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Months{
+    position: absolute;
+    top: 300px;
+    left: 25px;
+
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+
+    color: hsl(28, 10%, 53%);
+}
+
+.Bar{
+    position: absolute;
+    width: 425px;
+    top: 350px;
+    left: 10px;
+    color: hsl(28, 10%, 53%);
+}
+
+.Total-Text{
+    position: absolute;
+    top: 360px;
+    left: 8px;
+
+    color: hsl(28, 10%, 53%);
+}
+
+.Total-Number{
+    position: absolute;
+    top: 350px;
+    left: 5px;
+
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.Last-Number{
+    position: absolute;
+    top: 388px;
+    left: 375px;
+
+    font-weight: bold;
+}
+
+.Last-Month{
+    position: absolute;
+    top: 406px;
+    left: 300px;
+
+    color: hsl(28, 10%, 53%)
+}
